@@ -24,9 +24,6 @@ use app\controllers\ProductController;
         $page = isset($_REQUEST['page']) ? $_REQUEST['page'] : null;
 
         switch ($page) {
-            case 'view':
-                $controller->view();
-                break;
             case 'add':
                 $controller->add();
                 break;
